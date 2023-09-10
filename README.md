@@ -44,7 +44,7 @@ Create a Buttons Panel widget:
 ```dart
 ButtonsPanel(
   currentIndex: _currentIndex,
-  onTap: (value) => setState(() => currentIndex = value),
+  onTap: (value) => setState(() => _currentIndex = value),
   children: const [
     Text("Home"),
     Text("Search"),
