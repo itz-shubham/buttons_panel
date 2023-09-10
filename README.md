@@ -13,7 +13,7 @@ Buttons Panel is a Flutter plugin that lets you create a row/column of buttons t
 
 - **Button Panel:** Create a panel containing multiple buttons for users to interact with.
 
-- **Customization:** Customize the appearance of the buttons, including colors, text or icons theme, selected item theme background colors etc.
+- **Customization:** Customize the appearance of the buttons, including colors, text or icons theme, selected item theme background colors, etc.
 
 - **Callback Functions:** Set callback functions to handle user interactions when buttons are pressed.
 
@@ -44,7 +44,7 @@ Create a Buttons Panel widget:
 ```dart
 ButtonsPanel(
   currentIndex: _currentIndex,
-  onTap: (value) => setState(() => currentIndex2 = value),
+  onTap: (value) => setState(() => currentIndex = value),
   children: const [
     Text("Home"),
     Text("Search"),
@@ -53,7 +53,7 @@ ButtonsPanel(
 ),
 ```
 
-For more detailed usage and customization instructions, please refer to the [example](example).
+For more detailed usage and customization instructions, please refer to the [example](/example).
 
 ## Contributing
 
@@ -61,4 +61,4 @@ We welcome contributions to Buttons Panel Flutter Plugin! Feel free to open issu
 
 ## License
 
-This package is distributed under the [MIT License](LICENSE).
+This package is distributed under the [MIT License](/LICENSE).
